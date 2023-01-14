@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    background-color: rgb(188, 188, 212);
+    position: relative;
+    width:100%;
+    padding: 10px;
+    
+
+}
+.logo{
+    width: 120px;
+    height:40px;
+}
+.nav{
+    color:black;
+    position: absolute;
+    right: 20px;
+    top:20px;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.second-box{
+    background-image: linear-gradient(rgb(237, 87, 87),rgb(52, 52, 187), rgb(200, 200, 10));
+    position: relative;
+    width:100vw;
+    padding: 140px;
+    margin-top: 25px;
+
+}
+.vk{
+    position: absolute;
+    font-weight: bolder;
+    font-size:xx-large;
+    top:30px;
+    left:5px;
+}
+.vk1{
+    position: absolute;
+    left: 5px;
+    top:100px;
+}
+.btn {
+    width:120px;
+    height: 50px;
+    background-color:blue;
+    font-weight: bold;
+    border-radius: 25px;
+    position: absolute;
+    top:180px;
+    left:20px;
+}
+.apple {
+    position: absolute;
+    top:30px;
+    right:20px;
+
+}
+.parent{
+    display: flex;
+    width:100vw;
+    height:40vh;
+    border:1px solid black;
+    
+}
+.child {
+    height: 170px;
+    width: 130px;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px;
+}
+
+.footer{
+    font-weight: bold;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: lightgray;
+}
+.btn2 {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+span{
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+span:hover{
+    background-color: lightgray;
+
+
+
+}
